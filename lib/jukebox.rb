@@ -9,7 +9,12 @@ end
   
 def play (songs)
   
+end
+
 def list 
-  
-def exit 
-  
+ puts "Please enter a song name or number:" 
+end
+
+def exit_jukebox
+  puts "Goodbye"
+end
