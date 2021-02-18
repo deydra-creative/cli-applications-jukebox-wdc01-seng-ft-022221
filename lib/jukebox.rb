@@ -19,7 +19,9 @@ def play (songs)
 end
 
 def list 
-  "Invalid input, please try again"
+ songs.each_with_index do |song, i|
+   puts "#{i + 1}. #{song}"
+  end
   end 
 end
 
