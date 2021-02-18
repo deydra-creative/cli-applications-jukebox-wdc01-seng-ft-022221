@@ -1,17 +1,16 @@
 def help 
   puts "I accept the following commands:"
   puts "- help : displays this help message"
+  puts "- list : displays a list of songs you can play"
+  puts "- list : displays a list of songs you can play"
+  puts "- play : lets you choose a song to play"
+  puts "exit : exits this program"
+end 
+  
+  
 def play 
   
 def list 
   
 def exit 
   
-  
-  #it "lists out the possible commands" do
-        expect( $stdout ).to receive(:puts).with(/I accept the following commands:/)
-        expect( $stdout ).to receive(:puts).with(/- help : displays this help message/)
-        expect( $stdout ).to receive(:puts).with(/- list : displays a list of songs you can play/)
-        expect( $stdout ).to receive(:puts).with(/- play : lets you choose a song to play/)
-        expect( $stdout ).to receive(:puts).with(/- exit : exits this program/)
-        help
