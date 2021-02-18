@@ -13,7 +13,8 @@ end
 
 def list 
  puts "Please enter a song name or number:" 
- input = get.chomp 
+ user_input = gets.chomp
+ 
 end
 
 def exit_jukebox
