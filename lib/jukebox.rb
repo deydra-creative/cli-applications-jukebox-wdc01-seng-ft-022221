@@ -19,7 +19,7 @@ if (1..9).to_a.include?(input.to_i)
 end
 
 def list 
- songs.each_with_index do |song, i|
+ songs.each_with_index do |song, index|
    puts "#{i + 1}. #{song}"
   end 
 end
