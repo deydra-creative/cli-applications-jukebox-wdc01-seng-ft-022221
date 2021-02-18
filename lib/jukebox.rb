@@ -27,3 +27,22 @@ end
 def exit_jukebox
   puts "Goodbye"
 end
+
+def run(songs)
+puts "Please enter a command:"
+input = gets.chomp
+until input == exit
+if input == help
+  help
+  run
+  if input == list
+    list(songs)
+    run
+    if input == play
+      play(songs)
+      run
+    end
+  end
+end
+end
+end 
