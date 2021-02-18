@@ -1,1 +1,8 @@
-# Add your code here
+def help 
+  
+def play 
+  
+def list 
+  
+def exit 
+  
