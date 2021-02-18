@@ -19,9 +19,9 @@ if (1..9).to_a.include?(input.to_i)
 end
 
 def list(songs)
- songs.each_with_index do |song, index|
-   puts "#{i + 1}. #{song}"
-  end 
+songs.each_with_index do |song, index| 
+  puts "#{index+1}. #{song}"
+end
 end
 
 def exit_jukebox
